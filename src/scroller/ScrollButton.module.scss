@@ -1,0 +1,22 @@
+.button {
+    position: fixed !important;
+    bottom: 24px;
+    right: 24px;
+    z-index: 10;
+
+    .icon {
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        color: #32aae0;
+        font-size: 3rem;
+    }
+
+    .icon:hover {
+        color: #2b88d2;
+    }
+}
+
+.button:hover {
+    background-color: transparent !important;
+}

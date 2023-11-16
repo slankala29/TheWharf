@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { useMsal, useIsAuthenticated } from '@azure/msal-react';
+import Home from './components/Home';
+import Reauth from './components/reauth/Reauth';
+import { loginRequest } from './authConfig';
+import './custom.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+const { instance, accounts } = useMsal();
+
+     const isAuthenticated = true;
+     const handleLogin = () => {
+         instance
+             .loginRedirect(loginRequest)
+             .catch((e) => {
+                 console.log(e);
+             })
+             .then((data: any) => {
+                console.log(data);
+                 console.log(accounts);
+                 // RequestProfileData();
+             });
+     };
+     useEffect(() => {
+         if (!isAuthenticated) {
+             handleLogin();
+         }
+
+         setInterval(() => {
+             console.log(accounts);
+         }, 250);
+    }, [isAuthenticated]);
+
+//return <>{isAuthenticated ? <Home /> : <Reauth handleLogin={handleLogin} />}</>;
+return <Home />
+
 }
+
+
 
 export default App;

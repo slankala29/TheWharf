@@ -1,0 +1,106 @@
+{
+    "restaurants": [
+        {
+            "name": "Bartaco",
+            "venueType": "Fast Casual / Sit Down",
+            "cuisineType": "Mexican",
+            "link": "https://bartaco.com/food/"
+        },
+        {
+            "name": "Ben & Jerry's Ice Cream",
+            "venueType": "Fast Casual",
+            "cuisineType": "Desert",
+            "link": "https://BENJERRY.COM"
+        },
+        {
+            "name": "Bistro Du Jour",
+            "venueType": "Fast Casual / Sit Down",
+            "cuisineType": "French",
+            "link": "https://BISTRO-DUJOUR.COM"
+        },
+        {
+            "name": "Blank Street Coffee",
+            "venueType": "Fast Casual",
+            "cuisineType": "Coffee Shop",
+            "link": "https://BLANKSTREET.COM"
+        },
+        {
+            "name": "Brighton DC",
+            "venueType": "Sit Down",
+            "cuisineType": "American",
+            "link": "https://www.brighton-dc.com"
+        },
+        {
+            "name": "District Donut",
+            "venueType": "Fast Casual",
+            "cuisineType": "Desert",
+            "link": "https://DISTRICTDOUGHNUT.COM"
+        },
+        {
+            "name": "E-Tea",
+            "venueType": "Fast Casual",
+            "cuisineType": "Coffee Shop",
+            "link": "https://www.wharfdc.com/restaurants/e-tea/"
+        },
+        {
+            "name": "Falfel Inc",
+            "venueType": "Fast Casual",
+            "cuisineType": "Mediterranean",
+            "link": "https://FALAFELINC.ORG"
+        },
+        {
+            "name": "Fat Fish",
+            "venueType": "Fast Casual",
+            "cuisineType": "Japanese",
+            "link": "https://FATFISHROLLS.COM"
+        },
+        {
+            "name": "Gordon Ramsay Fish & Chips",
+            "venueType": "Fast Casual / Sit Down",
+            "cuisineType": "Seafood",
+            "link": "http://gordonramsayrestaurants.com/en/us/fish-and-chips"
+        },
+        {
+            "name": "Lucky Buns",
+            "venueType": "Fast Casual / Sit Down",
+            "cuisineType": "American",
+            "link": "http://luckybuns.com/"
+        },
+        {
+            "name": "Mason's Lobster Rolls",
+            "venueType": "Fast Casual",
+            "cuisineType": "Seafood",
+            "link": "http://masonslobster.com/"
+        },
+        {
+            "name": "Milk & Honey Café",
+            "venueType": "Fast Casual / Sit Down",
+            "cuisineType": "Southern Cuisine",
+            "link": "https://www.milknhoneycafe.com/"
+        },
+        {
+            "name": "Praline Bakery & Bistro",
+            "venueType": "Fast Casual",
+            "cuisineType": "American",
+            "link": "https://www.praline-bakery.com/"
+        },
+        {
+            "name": "Shake Shack",
+            "venueType": "Fast Casual",
+            "cuisineType": "American",
+            "link": "http://shakeshack.com/"
+        },
+        {
+            "name": "Slice of Matchbox",
+            "venueType": "Fast Casual / Sit Down",
+            "cuisineType": "American",
+            "link": "http://matchboxrestaurants.com/"
+        },
+        {
+            "name": "Starbucks",
+            "venueType": "Fast Casual",
+            "cuisineType": "Coffee Shop",
+            "link": "https://starbucks.com"
+        }
+    ]
+}

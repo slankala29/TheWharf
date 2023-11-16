@@ -1,0 +1,36 @@
+.homePage {
+    .container {
+        max-width: 100%;
+        justify-content: center;
+        height: 100vh;
+        overflow-y: scroll;
+        overscroll-behavior: contain;
+
+        h4 {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .scroller {
+            width: 100%;
+            text-align: -webkit-center;
+            .item {
+                padding-top: 0px;
+                width: 100%;
+                text-align: left;
+            }
+        }
+    }
+
+    .twitterContainer {
+        margin: 0 !important;
+        max-width: 100%;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+
+        h4 {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }
+}

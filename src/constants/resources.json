@@ -1,0 +1,22 @@
+{
+    "sites": [
+        {
+            "image": "https://s3.amazonaws.com/www-wharfdc-com-production/media/filer_public/68/1c/681cf9d8-313c-4998-badb-b3f36490a850/new_hero.jpg",
+            "url": "https://www.wharfdc.com/",
+            "name": "District Wharf",
+            "desc": "The Wharf reestablished Washington, DC, as a waterfront city and destination. This remarkable, mile-long stretch along the Potomac River comes to life with restaurants, retailers, residences, and businesses—all complemented by monumental views and a vibrant culture."
+        },
+        {
+            "image": "https://assets.website-files.com/5fb54ad4b4c1fcf604ea4bd0/5fbf1ea38f82d8fc6e59239e_web1a_start.jpg",
+            "url": "https://www.670maineavenue.com/",
+            "name": "670 Maine Avenue",
+            "desc": "Experience a dynamic waterfront workplace with unrivaled views in the heart of the Wharf neighborhood. The building, designed by SHoP Architects, is comprised of two, 11-story towers featuring freestanding floor plates, a 13,000 SF private indoor/outdoor penthouse level meeting and entertainment space, a 7,000 SF cutting-edge fitness center, and an unparalleled arrival through the Oculus."
+        },
+        {
+            "image": "https://images.squarespace-cdn.com/content/v1/59160436ff7c50511f6f72cc/1517504598992-T6MMN6OHICEYRI3X1DCA/SWBID_Website.png?format=1500w",
+            "url": "https://www.swbid.org/",
+            "name": "Southwest DC",
+            "desc": "Southwest, D.C. is a neighborhood rooted in arts, culture and people. Located just south of the National Mall and with ten world-class museums, seven performance venues and James Beard award-winning chefs, Southwest offers big experiences. Amidst the world of bustling, big experiences is nestled a small-town neighborhood feel with a tight-knit, active community."
+        }
+    ]
+}

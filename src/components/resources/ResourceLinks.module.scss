@@ -1,0 +1,27 @@
+.resourcesSection {
+    height: 100vh;
+    margin: 20px;
+
+    .gridLayout {
+        flex-direction: row;
+
+        .card {
+            display: flex;
+            justify-content: center;
+            height: 95vh;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .resourcesSection {
+        height: auto;
+        .gridLayout {
+            flex-direction: column;
+            .card {
+                padding-top: 50px;
+                max-width: none;
+            }
+        }
+    }
+}

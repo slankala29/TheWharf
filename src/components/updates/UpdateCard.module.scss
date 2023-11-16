@@ -1,0 +1,59 @@
+.cardContainer {
+    .header {
+        flex: 0 0 auto;
+        overflow: hidden;
+
+        .imageWrapper {
+            position: relative;
+            display: block;
+            height: 0px;
+            padding-bottom: 10%;
+            width: 100%;
+
+            .image {
+                position: relative;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    .cardBody {
+        .innerBody {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .body {
+                padding-top: 1rem;
+                line-height: 12px;
+                font-size: 0.8rem;
+            }
+        }
+        .cardFooter {
+            min-width: 100%;
+            margin-top: auto;
+            box-sizing: border-box;
+
+            .actions {
+                justify-content: center;
+            }
+
+            .button {
+                border: 1px solid #000;
+                background-color: #fff;
+                color: #000;
+                font-size: 0.8rem;
+                background: linear-gradient(to left, #fff 50%, #20344c 50%) right;
+                background-size: 200%;
+                transition: 0.5s ease-out;
+            }
+
+            .button:hover {
+                color: #fff;
+                border: 1px solid #20344c;
+                background-position: left;
+            }
+        }
+    }
+}

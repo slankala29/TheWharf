@@ -1,0 +1,19 @@
+.updateContainer {
+    h4 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .twitterContainer {
+        margin: 0 !important;
+        max-width: 100%;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+
+        .item {
+            padding-top: 0px;
+            width: 100%;
+            text-align: left;
+        }
+    }
+}

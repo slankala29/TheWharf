@@ -1,0 +1,14 @@
+.diningSection {
+    margin: 20px;
+
+    .filters {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    .diningSection {
+        height: auto;
+    }
+}

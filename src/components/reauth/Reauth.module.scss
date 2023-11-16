@@ -1,0 +1,40 @@
+.reauthContainer {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%),
+        url('../images/roof-terrace.jpeg');
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%),
+        url('../images/roof-terrace.jpeg');
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%), url('../images/roof-terrace.jpeg');
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%), url('../images/roof-terrace.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 95%), url('../images/roof-terrace.jpeg');
+    max-width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    height: 100vh;
+
+    .item {
+        color: #fff;
+        padding-top: 30vh;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+
+        .authButton {
+            margin-bottom: 10px;
+            padding: 0px 24px;
+            height: 52px;
+            border: 1px solid #20344c;
+            background-color: #20344c;
+            color: #fff;
+            font-size: 1rem;
+            background: linear-gradient(to left, #20344c 50%, #fff 50%) right;
+            background-size: 200%;
+            transition: 0.5s ease-out;
+        }
+
+        .authButton:hover {
+            color: #000;
+            border: 1px solid #000;
+            background-position: left;
+        }
+    }
+}

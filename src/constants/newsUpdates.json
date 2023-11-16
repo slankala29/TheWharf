@@ -1,0 +1,20 @@
+{
+    "updates": {
+        "wharf": [
+            {
+                "image" : "https://www.washingtonian.com/wp-content/uploads/2022/10/The-Wharf_Phase-2-Rendering-994x559.jpg",
+                "title": "The Wharf’s Phase Two Is Opening With Over 20 New Spots",
+                "body": "The Southwest development will celebrate the opening of its expansion of over 20 new spots on October 12.",
+                "link": "https://www.washingtonian.com/2022/10/04/the-wharfs-phase-two-is-opening-with-over-20-new-spots/"
+            }
+        ],
+        "office": [
+            {
+                "image" : "",
+                "title": "New Office Renderings Available to View!",
+                "body": "",
+                "link": ""
+            }
+        ]
+    }
+}
