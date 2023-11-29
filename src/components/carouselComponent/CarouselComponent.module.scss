@@ -1,45 +1,46 @@
 .carouselSection {
-    display: flex;
-    justify-content: center;
-    height: 95vh;
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+  margin-top: 2rem;
 
-    .gridItem {
-        display: flex;
+  .gridItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .carouselContainer {
+      width: 65vw;
+      z-index: 1 !important;
+
+      .captionSection {
         align-items: center;
         justify-content: center;
+        text-align: center;
 
-        .carouselContainer {
-            width: 65vw;
-            z-index: 1 !important;
-
-            .captionSection {
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-
-                .captionBox {
-                    height: 100%;
-                    width: 24rem;
-                    border: 1px solid #000;
-                    background-color: #000;
-                    color: #fff;
-                    font-size: 1rem;
-                }
-            }
+        .captionBox {
+          height: 100%;
+          width: 24rem;
+          border: 1px solid #000;
+          background-color: #000;
+          color: #fff;
+          font-size: 1rem;
         }
+      }
     }
+  }
 }
 
 @media (max-width: 550px) {
-    .carouselSection {
-        .gridItem {
-            .carouselContainer {
-                .captionSection {
-                    .captionBox {
-                        width: 100%;
-                    }
-                }
-            }
+  .carouselSection {
+    .gridItem {
+      .carouselContainer {
+        .captionSection {
+          .captionBox {
+            width: 100%;
+          }
         }
+      }
     }
+  }
 }

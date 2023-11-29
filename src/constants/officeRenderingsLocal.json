@@ -1,0 +1,88 @@
+{
+  "images": [
+    {
+      "source": "/assets/Reception.jpg",
+      "legend": "Reception"
+    },
+    {
+      "source": "/assets/Hub Dining.jpg",
+      "legend": "Hub Dining"
+    },
+    {
+      "source": "/assets/Hub Stair.jpg",
+      "legend": "Hub Stair"
+    },
+    {
+      "source": "/assets/Huddle Room.jpg",
+      "legend": "Huddle Room"
+    },
+    {
+      "source": "/assets/Conference.jpg",
+      "legend": "Conference"
+    },
+    {
+      "source": "/assets/Level 10 Hub - 1.jpg",
+      "legend": "Level 10 Hub"
+    },
+    {
+      "source": "/assets/Level 10 Hub - 2.jpg",
+      "legend": "Level 10 Hub"
+    },
+    {
+      "source": "/assets/Level 10 Hub - 3.jpg",
+      "legend": "Level 10 Hub"
+    },
+    {
+      "source": "/assets/Level 10 Hub - 4.jpg",
+      "legend": "Level 10 Hub"
+    },
+    {
+      "source": "/assets/Level 9 Hub - 1.jpg",
+      "legend": "Level 9 Hub"
+    },
+    {
+      "source": "/assets/Level 9 Hub - 2.jpg",
+      "legend": "Level 9 Hub"
+    },
+    {
+      "source": "/assets/Level 9 Hub - 3.jpg",
+      "legend": "Level 9 Hub"
+    },
+    {
+      "source": "/assets/Level 9 Hub - 4.jpg",
+      "legend": "Level 9 Hub"
+    },
+    {
+      "source": "/assets/Level 8 Hub - 1.jpg",
+      "legend": "Level 8 Hub"
+    },
+    {
+      "source": "/assets/Level 8 Hub - 2.jpg",
+      "legend": "Level 8 Hub"
+    },
+    {
+      "source": "/assets/Level 8 Hub - 3.jpg",
+      "legend": "Level 8 Hub"
+    },
+    {
+      "source": "/assets/Level 8 Hub - 4.jpg",
+      "legend": "Level 8 Hub"
+    },
+    {
+      "source": "/assets/Collab 1.jpg",
+      "legend": "Typical Floor Collab"
+    },
+    {
+      "source": "/assets/Collab 2.jpg",
+      "legend": "Typical Floor Collab"
+    },
+    {
+      "source": "/assets/Collab 3.jpg",
+      "legend": "Typical Floor Collab"
+    },
+    {
+      "source": "/assets/Collab 4.jpg",
+      "legend": "Typical Floor Collab"
+    }
+  ]
+}
